@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	padding:0;
+}
+
+header {
+	background-color: #fff;
+	border-bottom: : solid 5px #ccc;
+}
+
+footer {
+	background-color: #666;
+	clear: both;
+	border-top: solid #4aaaa5 10px;
+}
+
+p {
+	color: #777;
+}
+
+.wrapper {
+	background-color: #777;
+	overflow: auto;
+}
+
+.content {
+	background-color: #fff;
+	border: 3px solid #ddd;
+}
+
+.about-container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#about {
+	width: 50%;
+	float: left;
+	margin: 20px;
+	padding: 20px;
+}
+
+#connect {
+	float: left;
+	padding: 20px;
+	margin: 20px;
+}
+
+
+
+
+
+
+
+/*Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd*/
