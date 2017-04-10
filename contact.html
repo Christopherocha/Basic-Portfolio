@@ -6,20 +6,44 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	</head>
-	<body>
+	<body class="site">
 		<header>
+			<div id="name">Chris Rocha</div>
 			<nav>
-				<div id="./name"><h1>Chris Rocha</h1></div>
 				<a href="./index.html" class="nav-links">About</a>
-				<a href="./portfolio.html" class="nav-links">Portfolio</a>
+				<a href="./portfolio.html" class="nav-links" id="middle-link">Portfolio</a>
 				<a href="./contact.html" class="nav-links">Contact</a>
 			</nav>
 		</header>
 		<div class="wrapper">
-			
+			<div class="container">
+				<section class="content" id="contact">
+				<form>
+					<h1>Contact</h1>
+					<hr>
+					<div class="field">Name:</div>
+					<input type="text" name="name" class="input" required="required" value="" size="50">
+					<div class="field">Email:</div>
+					<input type="text" name="email" class="input" required="required" value="" size="50">
+					<div class="field">Message:</div>
+					<textarea name="message" class="input" required="required" rows="7" cols="50"></textarea>
+					<input type="submit" name="submit" value="submit">
+					<input type="reset" name="reset" value="reset">
+				</form>			
+				</section>
+			<article class="content" id="connect">
+				<h3>Connect with Me</h3>
+				<hr>
+				<a href="http://placehold.it"><img src="http://placehold.it/75x75" alt="placehold"></a>
+				<a href="http://placehold.it"><img src="http://placehold.it/75x75" alt="placehold"></a>
+				<a href="http://placehold.it"><img src="http://placehold.it/75x75" alt="placehold"></a>
+			</article>
+			</div>
 		</div>
 		<footer>
-			<p>&copy; Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script> Chris Rocha</p>
+			<div class="footer">
+				<p>&copy; Copyright <script type="text/javascript">document.write(new Date().getFullYear());</script> Chris Rocha</p>
+			</div>
 		</footer>
 	</body>
 </html>
