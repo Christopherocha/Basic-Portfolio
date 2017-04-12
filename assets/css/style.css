@@ -17,14 +17,15 @@ section h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 28px;
 }
 
 aside h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 22px;
+	text-align: center;
 }
 
 .connectImages {
