@@ -41,7 +41,7 @@ aside h2 {
 #nav-menu {
 	width: 250px;
     position: absolute;
-    right: 282px;
+    right: 230px;
     top: 25px;
 }
 
@@ -60,6 +60,10 @@ p {
 .content {
 	background-color: #fff;
 	border: 3px solid #ddd;
+	width: 615px;
+    float: left;
+    margin: 20px 25px 20px 0;
+    padding: 20px
 }
 
 .container {
@@ -85,17 +89,21 @@ p {
 
 .left {
 	float: left;
+	width: 250px;
+	height: 200px;
 }
 
 .right {
 	float: right;
+	width: 250px;
+	height: 200px;
 }
 
 .banner-left {
 	text-align: center;
 	background-color: #4aaaa5;
 	height: 50px;
-    width: 210px;
+    width: 250px;
     position: absolute;
     bottom: 30px;
 }
@@ -104,7 +112,7 @@ p {
 	text-align: center;
 	background-color: #4aaaa5;
 	height: 50px;
-    width: 210px;
+    width: 250px;
     position: absolute;
     bottom: 30px;
     right: 0px;
@@ -123,18 +131,32 @@ p {
 	clear: both;
 }
 
+#button {
+	background-color: #4aaaa5;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+}
+
 #about {
-	width: 50%;
-	float: left;
-	margin: 20px;
-	padding: 20px;
+	/*width: 630px;
+    float: left;
+    margin: 10px 5px 10px 0;
+    padding: 20px 15px;*/
+}
+
+#aboutImage {
+	width: 230px;
 }
 
 #connect {
 	float: left;
-	padding: 20px;
-	margin: 20px;
-	width: 270px;
+    margin: 20px 0;
+    width: 244px;
+    padding: 20px 10px;
 }
 
 #name {
@@ -142,7 +164,7 @@ p {
     height: 50px;
     position: absolute;
     bottom: 0px;
-    left: 255px;
+    left: 242px;
     text-align: center;
     background-color: #4aaaa5;
     color: white;
@@ -169,10 +191,10 @@ p {
 }
 
 #contact {
-	width: 50%;
+	/*width: 50%;
 	float: left;
 	margin: 20px;
-	padding: 20px;
+	padding: 20px;*/
 }
 
 /* End Contact CSS */
@@ -180,10 +202,10 @@ p {
 /* Begin Portfolio CSS */
 
 #portfolio {
-	width: 50%;
+	/*width: 50%;
 	float: left;
 	margin: 20px;
-	padding: 20px;
+	padding: 20px;*/
 }
 
 /* End Contact CSS */
@@ -220,6 +242,7 @@ footer p {
 
 .about-paragraph {
 	margin-top: 25px;
+	font-size: 16px;
 }
 
 /*Teal color (used for headings and backgrounds): #4aaaa5
